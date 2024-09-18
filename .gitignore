@@ -1,0 +1,22 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Banco de dados locais
+*.sql
+*.sqlite
+*.db
+
+# Arquivos de configuração locais
+.env
+
+# Diretórios de IDEs
+.vscode/
+.idea/
+
+# Dependências de pacotes
+node_modules/
+vendor/
