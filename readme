@@ -1,0 +1,42 @@
+# Sistema de Gerenciamento de Biblioteca
+
+Este é um sistema básico de gerenciamento de uma biblioteca, construído utilizando SQL. Ele gerencia informações sobre autores, livros e empréstimos. A aplicação inclui funcionalidades para inserir, consultar, atualizar e remover registros das tabelas.
+
+## Estrutura do Banco de Dados
+
+- **Autores**: Contém informações sobre os autores dos livros.
+- **Livros**: Armazena os dados dos livros, com uma relação de chave estrangeira com a tabela Autores.
+- **Empréstimos**: Armazena os dados dos empréstimos, relacionando-se com a tabela de livros.
+
+## Funcionalidades Principais
+
+1. **Criação do banco de dados e tabelas**: Define a estrutura do banco de dados com chaves estrangeiras entre Livros e Autores, e entre Empréstimos e Livros.
+2. **Inserção de dados**: Popula as tabelas de autores, livros e empréstimos.
+3. **Consultas**:
+   - Listar todos os livros com seus respectivos autores e ano de publicação.
+   - Consultar os empréstimos de livros que ainda não foram devolvidos.
+4. **Atualização de dados**: Atualiza a data de devolução de um empréstimo.
+5. **Exclusão de dados**: Remove um livro e seus empréstimos associados.
+
+## Requisitos
+
+- MySQL ou outro sistema de gerenciamento de banco de dados compatível com SQL.
+- Ferramenta para execução de comandos SQL, como MySQL Workbench, phpMyAdmin, ou outro.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/gerenciamento-biblioteca.git
+   cd gerenciamento-biblioteca
+Execute o script SQL contido no arquivo database.sql para criar o banco de dados e as tabelas:
+
+
+source database.sql;
+Após a criação das tabelas, utilize os comandos SQL conforme necessário para inserir, consultar, atualizar ou deletar registros.
+
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
